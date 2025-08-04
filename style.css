@@ -1,0 +1,114 @@
+body{
+    background-color: #202124;
+}
+
+.fc-pg{
+    padding: 18px 18px 6px 18px;
+    gap: 15px;
+}
+
+.fc-r{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fc-c{
+    display: flex;
+    justify-content: center;
+}
+
+.fc-col{
+    flex-direction: column;
+}
+
+.cc{
+    margin: 0 auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.sb-area{
+    display: flex;
+    position: relative;
+    min-height: 50px;
+    margin: 0 auto;
+    background-color: #4d5156;
+    border: 1px solid transparent;
+    color: #e8e8e8;
+    max-width: 584px;
+    padding: 0 16px;
+    min-height: 50px;
+    border-radius: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.sb{
+    display: flex;
+    flex: 1;
+    padding: 0px 8px 0px 0px;
+}
+
+.nav{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
+
+.lg-logo{
+    width: 280px;
+}
+
+input[type="submit"]{
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid #5f6368;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    margin-top: 0;
+    height: 50px;
+}
+
+.text-input{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+input[type="text"]{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    border-bottom: 14px solid transparent;
+    margin: 0;
+    padding: 0;
+    padding-top: 14px;
+    width: 100%;
+    font-family: Google Sans,Arial,sans-serif;
+    font-size: 16px;
+    color: #e8eaed;
+    outline: none;
+}
+

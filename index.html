@@ -3,19 +3,38 @@
     <head>
         <title>Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="header">
+        <div class="fc-r fc-pg">
             <a href="https://www.google.com/imghp?hl=fr&ogbl" class="nav">Images</a>
             <a href="https://www.google.fr/advanced_search" class="nav">Advanced search</a>
         </div>
-        <div id="body">
-            <img src="" alt="Google logo">
-            <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-                <a href="">I'm feeling lucky</a>
-            </form>
+        <div class="fc-c fc-pg">
+            <img class="lg-logo" src="static/index/google_search_logo.png" alt="Google logo">
         </div>
+        <form action="https://www.google.com/search" class="fc-c fc-col fc-pg">
+            <div>
+                <div id="cc">
+                    <div class="sb-area">
+                        <div class="sb">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </div>
+                            <div class="text-input">
+                                <input type="text" name="q">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fc-c fc-pg">
+                <input type="submit" value="Google Search" class="button">
+                <input type="submit" value="I'm feeling lucky" class="button">
+            </div>
+        </form>
     </body>
 </html>
