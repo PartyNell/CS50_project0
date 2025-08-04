@@ -23,8 +23,11 @@ body{
 
 .cc{
     margin: 0 auto;
-    max-width: 584px;
     position: relative;
+}
+
+.logo-area{
+    max-width: 584px;
 }
 
 .sb-area{
@@ -62,6 +65,16 @@ body{
 
 .lg-logo{
     width: 280px;
+}
+
+#subline{
+    color: #4487f6;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 222px;
+    bottom: 0;
+    white-space: nowrap;
 }
 
 input[type="submit"]{
@@ -106,7 +119,7 @@ input[type="text"]{
     padding: 0;
     padding-top: 14px;
     width: 100%;
-    font-family: Google Sans,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-size: 16px;
     color: #e8eaed;
     outline: none;
