@@ -1,5 +1,6 @@
 body{
     background-color: #202124;
+    font-family: Arial, sans-serif;
 }
 
 .fc-pg{
@@ -15,6 +16,11 @@ body{
 .fc-c{
     display: flex;
     justify-content: center;
+}
+
+.fc-sb{
+    display: flex;
+    justify-content: space-between;
 }
 
 .fc-col{
@@ -42,7 +48,6 @@ body{
     padding: 0 16px;
     min-height: 50px;
     border-radius: 26px;
-    font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -63,13 +68,30 @@ body{
     text-decoration: underline;
 }
 
+.sm-logo{
+    width: 74px;
+}
+
 .lg-logo{
     width: 280px;
 }
 
+.appbar{
+    margin: 25px 35px;
+    background: none;
+    color: #f28b82;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.separator{
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
 #subline{
     color: #4487f6;
-    font-family: Arial,sans-serif;
     font-size: 16px;
     position: absolute;
     left: 222px;
@@ -87,7 +109,6 @@ input[type="submit"]{
     text-align: center;
     cursor: pointer;
     border-radius: 4px;
-    font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -125,3 +146,51 @@ input[type="text"]{
     outline: none;
 }
 
+form{
+    margin: 10px 35px;
+    color: #969ba1;
+}
+
+label{
+    font-size: 13px;
+
+}
+
+.help-text{
+    font-size: 11px;
+}
+
+.exemple{
+    color: #dadce0;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+#q, #oq, #eq, #epq{
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: 1px solid #5c5f5e;
+    color: #bdc1c6;
+    border-radius: 1px;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+#advanced-search{
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+    height: 30px;
+}
+
+#advanced-search:hover{
+    background-color: #aecbfa;
+}
